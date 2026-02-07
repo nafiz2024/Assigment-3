@@ -1,9 +1,7 @@
 function analyzeText(str) {
     if (typeof str !== "string") {
         return "Invalid";
-    }
-
-    if (str.length === 0) {
+    } else if (str.length === 0) {
         return "Invalid";
     }
 
