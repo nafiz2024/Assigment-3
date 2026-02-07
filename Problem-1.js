@@ -1,5 +1,5 @@
 function newPrice(currentPrice, discount) {
-     if (typeof currentPrice !== "number" || typeof discount !== "number") {
+    if (typeof currentPrice !== "number" || typeof discount !== "number") {
         return "Invalid"
     }
 
