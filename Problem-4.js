@@ -20,8 +20,7 @@ function gonoVote(array) {
         return "equal";
     } else {
         return false;
-    }
-        
+    }       
 }
 
 let result = gonoVote(["ha","na","ha","na"]);
