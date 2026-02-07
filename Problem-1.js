@@ -8,7 +8,7 @@ function newPrice(currentPrice, discount) {
     let discountedPrice = (currentPrice * discount) / 100;
     let newPrice = currentPrice - discountedPrice;
     return newPrice.toFixed(3);
-}
+} 
 
 let finalPrice = newPrice(1500, 20);
 console.log(finalPrice); 

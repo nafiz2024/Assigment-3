@@ -14,7 +14,7 @@ function newPrice(currentPrice, discount) {
 // Problem-02: OTP Validation for Zapshift //
 function validOtp(otp) {
     if (typeof otp !== 'string') {
-        return "Invalid";
+        return "Invalid"; 
     } else if (otp.length !== 8) {
         return false;
     } else if (!otp.startsWith("ph-")) {

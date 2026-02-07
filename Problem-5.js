@@ -21,7 +21,7 @@ function analyzeText(str) {
         longwords: longestWord,
         token: tokenCount,
     };
-}
+} 
 
 
 let result = analyzeText("I am a little honest person");

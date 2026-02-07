@@ -10,9 +10,9 @@ function finalScore(omr) {
     let score = (right * 1) - (wrong * 0.5);
 
     let finalresult = Math.round(score);
-    
+
     return finalresult;
-}
+} 
 
 let score = finalScore({"right":67,"wrong":23,"skip":10});
 let score2 = finalScore({"right":80,"wrong":25,"skip":0});

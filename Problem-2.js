@@ -7,7 +7,7 @@ function validOtp(otp) {
         return false;
     } else {
         return true;
-    }
+    } 
 }
 
 let otp1 = validOtp("ph-12345");

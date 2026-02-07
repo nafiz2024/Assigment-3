@@ -21,7 +21,7 @@ function gonoVote(array) {
     } else {
         return false;
     }       
-}
+} 
 
 let result = gonoVote(["ha","na","ha","na"]);
 let result2 = gonoVote(["ha","na","na"]);
